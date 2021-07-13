@@ -109,23 +109,23 @@
 // switch(day){
 //     case 1: 
 //     console.log('monday');
-
+// break;
 //     case 2:
 //     console.log('tuesday');
-
+// break;
 //     case 3:
 //     console.log('wednesday');
 //     break;
 
 //     case 4:
 //     console.log('thursday');
-
+// break;
 //     case 5:
 //     console.log('friday');
-
+// break;
 //     case 6:
 //     console.log('saturday');
-
+// break;
 //     case 7:
 //     console.log('sunday');
 //     break;
@@ -155,8 +155,30 @@ if (age >=18 && age <=65) {
 else {
 console.log("too mature");
 }
+//conditionals truthy , failsey
 
-    
+let a = 2;
+if (a==0) {
+    console.log('sunshine');
+}
+else if(a !=2) {
+    console.log('moonlight');
+}
+else {
+    console.log('boogie');
+}
+
+//objects , arrays
+
+let shoes = new Object();
+    shoes['name'] = 'choos';
+    shoes['type'] = 'heels';
+    shoes['size'] = '6';
+    console.log(shoes);
+    console.log(shoes.type);
+
+    shoes.colour ='black';
+    console.log(shoes.colour);
 
 
 
